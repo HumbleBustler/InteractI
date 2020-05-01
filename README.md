@@ -1,5 +1,4 @@
-#University Management System
-
+#InteractI
 ### This application build in Java (JSP) Web Application
 
 **Backend:** Java (JSP), MySql
