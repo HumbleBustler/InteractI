@@ -17,7 +17,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `itech6401`
+-- Database: `Interact`
 --
 
 -- --------------------------------------------------------
@@ -61,8 +61,8 @@ CREATE TABLE `course` (
 --
 
 INSERT INTO `course` (`cid`, `title`, `prerequistes`) VALUES
-('6401', 'Enterprise Programming', 'Fundamental of Programming, Database Management System'),
-('6402', 'Network Adminstration', 'CCN , IAP');
+('6401', 'Software Engineering', 'Fundamental of Programming, Database Management System'),
+('6402', 'Computer Networks', 'CCN , IAP');
 
 -- --------------------------------------------------------
 
@@ -152,7 +152,7 @@ CREATE TABLE `lecturer` (
 --
 
 INSERT INTO `lecturer` (`LID`, `gname`, `surname`, `campus`, `passwd`, `email`) VALUES
-(12, 'Jhone', 'Michal', 'Australia', '123', 'jhone@gmail.com');
+(12, 'Ayush', 'Raj', 'UttarPradesh', '123', 'ayush@gmail.com');
 
 -- --------------------------------------------------------
 
@@ -174,8 +174,8 @@ CREATE TABLE `student` (
 --
 
 INSERT INTO `student` (`sid`, `fname`, `surname`, `email`, `major`, `password`) VALUES
-(55, 'Tejinder', 'Kaur', 'tejinder@gmail.com', 'Programming', '123'),
-(56, 'Krishan', 'Sharma', 'sharma@gmail.com', 'Programming', '123');
+(55, 'Utkarsh', 'Priyam', 'utkarsh@gmail.com', 'Programming', '123'),
+(56, 'Shubham', 'S', 'shubham@gmail.com', 'Programming', '123');
 
 -- --------------------------------------------------------
 
@@ -194,10 +194,10 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`username`, `password`, `type`) VALUES
-('adnan@gmail.com', '123', 'Admin'),
-('jhone@gmail.com', '123', 'Teacher'),
-('sharma@gmail.com', '123', 'Student'),
-('tejinder@gmail.com', '123', 'Student');
+('akhil@gmail.com', '123', 'Admin'),
+('ayush@gmail.com', '123', 'Teacher'),
+('shubham@gmail.com', '123', 'Student'),
+('utkarsh@gmail.com', '123', 'Student');
 
 --
 -- Indexes for dumped tables

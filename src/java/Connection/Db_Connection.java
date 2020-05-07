@@ -12,7 +12,7 @@ public class Db_Connection {
         
        String message = "";
        try {
-            String connectionURL = "jdbc:mysql://localhost:3306/ITECH6401?autoReconnect=true&useSSL=false";
+            String connectionURL = "jdbc:mysql://localhost:3306/Interact?autoReconnect=true&useSSL=false";
             Class.forName("com.mysql.jdbc.Driver"); 
             connection = DriverManager.getConnection(connectionURL, "root", "root");
             if(!connection.isClosed())

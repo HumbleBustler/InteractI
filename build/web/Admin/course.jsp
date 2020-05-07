@@ -18,7 +18,7 @@
     </head>
     <body class="container">
         <h1 style="text-align: center">Admin Panel</h1><hr>
-        <h3 style="text-align: center; color: red">Manage Lecturer</h3>
+        <h3 style="text-align: center; color: red">Manage Courses</h3>
         <%@include file="navigation_bar.jsp" %>
         <br>
         <div class="row">

@@ -7,8 +7,8 @@
 <!-- the Compile on Save feature is turned off for the project. -->
 <!-- You can turn off the Compile on Save (or Deploy on Save) setting -->
 <!-- in the project's Project Properties dialog box.-->
-<project name="ITECH6401_Enterprise_Programming" default="default" basedir=".">
-    <description>Builds, tests, and runs the project ITECH6401 Enterprise Programming.</description>
+<project name="Interact" default="default" basedir=".">
+    <description>Builds, tests, and runs the project Interact.</description>
     <import file="nbproject/build-impl.xml"/>
     <!--
 
